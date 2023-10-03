@@ -1,0 +1,112 @@
+.active {
+  background-color: white;
+  color: black;
+}
+
+.pending {
+  background-color: white;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 10px;
+  background-color: lightcyan;
+}
+
+.navbar li {
+  margin: 0 10px;
+  margin-top: 20px;
+}
+
+.cart-count {
+  background-color: #ff5722;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.2em 0.5em;
+  position: relative;
+  top: -0.8em;
+  left: 0.5em;
+  font-size: 0.8em;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+}
+
+.categoryClass {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.sneaker-card {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: 500px;
+  max-height: 700px;
+  flex: 1;
+  margin: 8%;
+}
+
+.sneaker-image {
+  max-width: 50%;
+}
+
+.sneaker-description {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.sneaker-price {
+  font-weight: bold;
+}
+
+.sneaker-link {
+  display: block;
+  margin-top: 10px;
+} 
+
+.sneaker-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -10px;
+}
+
+.imageDetail {
+  width: 40%;
+  height: 10%;
+}
+
+.quantity-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-button {
+  background-color: cyan;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.quantity {
+  font-size: 16px;
+  margin: 0 10px;
+}

@@ -1,8 +1,13 @@
-# React + Vite
+# Crazy Sneakers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este proyecto es una tienda online de calzados, en la cual se pueden ver los productos, agregarlos al carrito y realizar la compra.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación
+
+Para instalar el proyecto, se debe clonar el repositorio y luego instalar las dependencias con el comando npm install.
+
+## Ejecución
+
+Para ejecutar el proyecto, se debe correr el comando npm start y luego abrir el navegador en la dirección http://localhost:3000/.

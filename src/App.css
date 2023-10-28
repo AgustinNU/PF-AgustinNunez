@@ -33,8 +33,8 @@
 }
 
 .icon {
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
 }
 
 .categoryClass {
@@ -93,6 +93,10 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  > .quantity {
+    font-size: 16px;
+    margin: 0 10px;
+  }
 }
 
 .quantity-button {
@@ -106,7 +110,69 @@
   margin: 4px 2px;
 }
 
-.quantity {
-  font-size: 16px;
-  margin: 0 10px;
+.cart {
+  position:relative;
 }
+
+.cartCount {
+  position:absolute;
+  bottom: 0px;
+  right: -10px;
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+
+  .headers, .rows > .row, .total {
+    display: flex;
+    flex-direction: row;
+    > div {
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      display: flex;
+      border: solid 1px;
+      align-items: center;
+      justify-content: center;
+    }
+    > .name{
+      width: 300px;
+    }
+    > .quantity {
+      width: 100px
+    }
+    > .unitPrice {
+      width: 150px
+    }
+    > .totalPrice {
+      width: 100px
+    }
+    > .actions {
+      width: 100px;
+      > .delete {
+        width: 25px;
+        height: 25px;
+        padding: 0;
+        background-color: rgb(142, 3, 3);
+      }
+    }
+  }
+
+  .total > div {
+    width: 100%;
+    justify-content: end !important;
+    padding-right: 1rem;
+  }
+}
+
+.confirm {
+  width: 200px;
+}
+
